@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    margin-top: 0px;
+}
+h1 {
+    color: white;
+    font-family: "mario64";
+    font-size: 50px;
+}
+h2 {
+    color: white;
+    font-family: "pixel";
+    font-size: 40px;
+}
+h3 {
+    color:white;
+    font-family: "pixel";
+    font-size: 30px;
+}
+p {
+    color: white;
+    font-family: "mario_world";
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.ramka {
+    border: 2px white solid;
+    padding-left: 20px;
+}
+.przycisk-prawo {
+    border: 1px white solid;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.przycisk-lewo{
+    border: 1px white solid;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tresc{
+    padding-top: 100px;
+    text-align: left;
+}
+table {
+    color: white;
+}
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+@font-face {
+    font-family: "mario_world";
+    src: url("czcionki/mario_world.ttf");
+    }
+@font-face {
+    font-family: "mario64";
+    src: url("czcionki/mario64.otf");
+    }
+@font-face {
+    font-family: "pixel";
+    src: url("czcionki/pixel.ttf");
+    }
