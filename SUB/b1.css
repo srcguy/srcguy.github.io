@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    margin-top: 0px;
+    max-width: 500px;
+    margin: auto;
 }
 p {
     color: white;
@@ -30,6 +31,12 @@ footer {
 a {
     text-decoration: none;
     color: white;
+}
+iframe {
+    padding-bottom: 10px;
+}
+audio {
+    padding-left: 140px;
 }
 @font-face {
     font-family: "mario_world";
