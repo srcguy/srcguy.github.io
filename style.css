@@ -82,7 +82,7 @@ a {
     align-items: center;
 }
 
-.blok4 {
+.blok5 {
     background-color: cornflowerblue;
     width: 100%;
     height: 100%;
@@ -90,15 +90,16 @@ a {
     display: flex;
 }
 
-.blok4-1 {
+.blok4 {
     background-color: black;
     width: 100%;
     height: 100%;
     animation: fadeIn 1s;
     display: flex;
+    align-items: center;
 }
 
-.blok5 {
+.blok6 {
     background-color: teal;
     width: 100%;
     height: 100%;
