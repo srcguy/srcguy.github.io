@@ -12,6 +12,11 @@ h3 {
     font-family: "pixel";
     font-size: 30px;
 }
+h1 {
+    color: white;
+    font-family: "pixel";
+    font-size: 50px;
+}
 table {
     color: white;
 }
@@ -29,6 +34,10 @@ footer {
 a {
     text-decoration: none;
     color: white;
+}
+img {
+    float: left;
+    padding: 10px;
 }
 @font-face {
     font-family: "mario_world";
