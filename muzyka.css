@@ -17,6 +17,12 @@ h1 {
     font-family: "pixel";
     font-size: 50px;
 }
+h2 {
+    color: white;
+}
+h4 {
+    color: white;
+}
 table {
     color: white;
 }
