@@ -4,17 +4,17 @@ body {
 }
 p {
     color: white;
-    font-family: "mario_world";
+    
     font-size: 20px;
 }
 h3 {
     color: white;
-    font-family: "pixel";
+    
     font-size: 30px;
 }
 h1 {
     color: white;
-    font-family: "pixel";
+    
     font-size: 50px;
 }
 h2 {
@@ -29,6 +29,9 @@ table {
 td {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 20vw;
 }
 footer {
     left: 0;
@@ -43,7 +46,12 @@ a {
 }
 img {
     float: left;
-    padding: 10px;
+}
+a:hover {
+    transition-duration: 1s;
+    height: auto;
+    font-size: 2vw;
+    color: antiquewhite;
 }
 @font-face {
     font-family: "mario_world";
