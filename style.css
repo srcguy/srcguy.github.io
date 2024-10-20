@@ -7,7 +7,12 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+    display: flex;
+}
+a:hover {
+    color: bisque;
+    transition-duration: 1s;
 }
 .blok1 {
     background-image: url('IMG/blok1-1.png');
@@ -33,57 +38,17 @@ a {
 }
 
 .blok2 {
-    background-color: antiquewhite;
+    background-image: url('IMG/blok2-1.png');
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
     animation: fadeIn 1s;
     display: flex;
-    align-items: center;
-}
-
-.tresc_lewo_blok {
-    width: 30%;
-    text-align: left;
-    font-size: 50px;
-    padding-left: 100px;
-    animation: fadeIn 3s;
-}
-
-.tresc_prawo_blok {
-    text-align: right;
-    font-size: 50px;
-    padding-right: 100px;
-    animation: fadeIn 3s;
-    margin-left: auto;
-    margin-right: 0;
-}
-
-.tresc_srodek_blok {
-    font-size: 50px;
-    animation: fadeIn 3s;
-    width: 100%;
-    text-align: center;
-}
-
-.kontakt_blok {
-    font-size: 50px;
-    padding-right: 100px;
-    animation: fadeIn 3s;
-    width: 100%;
-    padding-left: 100px;
 }
 
 .blok3 {
-    background-color:tomato;
-    width: 100%;
-    height: 100%;
-    animation: fadeIn 1s;
-    display: flex;
-    align-items: center;
-}
-
-.blok5 {
-    background-color: cornflowerblue;
+    background-color: #22170F;
     width: 100%;
     height: 100%;
     animation: fadeIn 1s;
@@ -91,21 +56,11 @@ a {
 }
 
 .blok4 {
-    background-color: black;
+    background-color: #5D3E29;
     width: 100%;
-    height: 100%;
+    height: 5%;
     animation: fadeIn 1s;
     display: flex;
-    align-items: center;
-}
-
-.blok6 {
-    background-color: teal;
-    width: 100%;
-    height: 100%;
-    animation: fadeIn 1s;
-    display: flex;
-    align-items: center;
 }
 @keyframes fadeIn {
     0% {
@@ -115,4 +70,63 @@ a {
     100% {
         opacity: 1;
     }
+}
+h1 {
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tresc1 {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tresc2 {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    color: white;
+    justify-content: center;
+    gap: 5%;
+}
+.tresc3 {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+.tresc4 {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+.button {
+    display: flex;
+    flex: 1;
+    margin: 3vh;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.button:hover {
+    filter: grayscale(0.5);
+    transition-duration: 2s;
+}
+.bigphoto {
+    width: 33vw;
+    height: 33vw;
 }
