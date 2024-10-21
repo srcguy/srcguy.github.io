@@ -95,10 +95,7 @@ p {
     flex: 1;
     flex-direction: row;
     display: flex;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin: auto;
     color: white;
     justify-content: center;
     gap: 5%;
