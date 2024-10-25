@@ -152,13 +152,4 @@ p {
         width: 55vw;
         height: 55vw;
     }
-    .tresc1 {
-        flex: 1;
-        flex-direction: column-reverse;
-        display: flex;
-        margin-left: 4vh;
-        margin-right: 4vh;
-        height: 100%;
-        color: white;
-    }
 }
