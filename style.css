@@ -127,3 +127,38 @@ p {
     width: 33vw;
     height: 33vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .tresc2 {
+        flex: 1;
+        flex-direction: column-reverse;
+        display: flex;
+        margin: auto;
+        color: white;
+        justify-content: center;
+        gap: 5%;
+    }
+    .button {
+        display: flex;
+        flex: 1;
+        margin-bottom: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        text-align: center;
+    }
+    .bigphoto {
+        width: 55vw;
+        height: 55vw;
+    }
+    .tresc1 {
+        flex: 1;
+        flex-direction: column-reverse;
+        display: flex;
+        margin-left: 4vh;
+        margin-right: 4vh;
+        height: 100%;
+        color: white;
+    }
+}
