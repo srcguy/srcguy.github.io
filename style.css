@@ -30,10 +30,10 @@ a:hover {
 .tytul_blok {
     width: 40%;
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     animation: fadeIn;
     animation-duration: 1s;
-    font-family: Marker Felt, fantasy;
+    font-family: Title;
     border-radius: 25px;
 }
 
@@ -152,4 +152,8 @@ p {
         width: 55vw;
         height: 55vw;
     }
+}
+@font-face {
+    font-family: Title;
+    src: url(FONTS/alfaslab.ttf);
 }
