@@ -4,6 +4,7 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     padding: 0px;
+    background-color: black;
 }
 a {
     text-decoration: none;
@@ -14,6 +15,34 @@ a:hover {
     color: bisque;
     transition-duration: 1s;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(FONTS/alfaslab.ttf);
+}
+
+/*BLOKI*/
+
 .blok1 {
     background-image: url('IMG/blok1-1.png');
     width: 100%;
@@ -66,23 +95,15 @@ a:hover {
     animation: fadeIn 1s;
     display: flex;
 }
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
+.blok5 {
+    width: 100%;
+    height: 100%;
+    animation: fadeIn 1s;
+    display: flex;
 }
-h1 {
-    font-size: 8vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-p {
-    font-size: 2vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
+/*TREŒCI*/
 
 .tresc1 {
     flex: 1;
@@ -103,6 +124,11 @@ p {
     color: white;
     justify-content: center;
     gap: 5%;
+}
+
+.tresc3 {
+    display: flex;
+    flex: 1;
 }
 .tresc4 {
     flex: 1;
@@ -126,6 +152,32 @@ p {
     height: 33vw;
 }
 
+.panel {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.panel:hover {
+    filter: grayscale(0.5);
+    transition-duration: 2s;
+}
+
+.bigphoto2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bigphoto2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     .tresc2 {
         flex: 1;
@@ -136,6 +188,7 @@ p {
         justify-content: center;
         gap: 5%;
     }
+
     .button {
         display: flex;
         flex: 1;
@@ -146,10 +199,12 @@ p {
         flex-shrink: 1;
         text-align: center;
     }
+
     .bigphoto {
         width: 55vw;
         height: 55vw;
     }
+
     .blok1 {
         background-image: url('IMG/blok1-1mobile.png');
         width: 100%;
@@ -163,8 +218,19 @@ p {
         animation: fadeIn 1s;
     }
 
-}
-@font-face {
-    font-family: Title;
-    src: url(FONTS/alfaslab.ttf);
+    p {
+        font-size: 4vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .blok2 {
+        background-image: url('IMG/blok2-1.png');
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        animation: fadeIn 1s;
+        display: flex;
+    }
 }
