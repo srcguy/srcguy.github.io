@@ -99,19 +99,10 @@ p {
     flex: 1;
     flex-direction: row;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: auto;
     color: white;
     justify-content: center;
     gap: 5%;
-}
-.tresc3 {
-    flex: 1;
-    flex-direction: row;
-    display: flex;
-    color: white;
 }
 .tresc4 {
     flex: 1;
