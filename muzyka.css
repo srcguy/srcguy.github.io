@@ -53,6 +53,9 @@ a:hover {
     font-size: 1.5vw;
     color: antiquewhite;
 }
+.album {
+    color: #ceffaf;
+}
 @font-face {
     font-family: "mario_world";
     src: url("FONTS/mario_world.ttf");

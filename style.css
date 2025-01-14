@@ -9,10 +9,17 @@ body {
 a {
     text-decoration: none;
     color: white;
-    display: flex;
+}
+a.album_link {
+    text-decoration: underline;
+    color: wheat;
 }
 a:hover {
     color: bisque;
+    transition-duration: 1s;
+}
+a.album_link:hover {
+    color: indianred;
     transition-duration: 1s;
 }
 
@@ -32,6 +39,11 @@ h1 {
 }
 
 p {
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p2 {
     font-size: 2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -101,6 +113,19 @@ p {
     height: 100%;
     animation: fadeIn 1s;
     display: flex;
+}
+
+.blok_album {
+    width: 100%;
+    height: 100%;
+    animation: fadeIn 1s;
+    display: flex;
+    background-image: url("IMG/blok25-1.png");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
 }
 
 /*TREŒCI*/
@@ -178,6 +203,22 @@ p {
     min-height: 100%;
 }
 
+.okladka {
+    display: flex;
+    flex: 1;
+    margin-left: 5%;
+}
+
+.opis {
+    display: flex;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 5%;
+    border-radius: 25px;
+    color: white;
+    padding: 2%;
+}
+
 @media only screen and (max-width: 600px) {
     .tresc2 {
         flex: 1;
@@ -220,6 +261,11 @@ p {
 
     p {
         font-size: 4vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p2 {
+        font-size: 3.5vw;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
